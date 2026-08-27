@@ -5,15 +5,13 @@ class Solution {
 
         for(int i=1;i<nums.length;i++){
             if(nums[i]==nums[i-1]){
-                count++;
+                return true;
             }
         }
-       if(count>0){
-        return true;
-       }
-       else{
+       
+       
         return false;
-       }
+       
 
     }
 }
